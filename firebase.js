@@ -18,7 +18,7 @@ import { getFirestore,collection, addDoc,doc, setDoc,updateDoc,serverTimestamp,g
   const db = getFirestore(app);
 
   export{
-    auth,
+    getAuth,
     createUserWithEmailAndPassword ,
     onAuthStateChanged ,
     updateProfile ,
@@ -28,6 +28,7 @@ import { getFirestore,collection, addDoc,doc, setDoc,updateDoc,serverTimestamp,g
     signOut,
     GoogleAuthProvider,
     signInWithPopup ,
+    getFirestore,
     collection,
     addDoc,
     doc, 
